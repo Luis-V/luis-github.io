@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Luis Villafana Tamez </title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+      <h1>Luis Villafana Tamez</h1>
+      <h2>Online Portfolio</h2>
+    </header>
+
+    <ol>
+      <li><a href="index.htm" target="_self">Home</a></li>
+    </ol>
+
+    <section>
+      <h2>A method to create 3D printable objects from digital wireframes</h2>
+
+      <p>Transforming 3-D models of line segment wireframes into solid trusses is a popular practice in additive manufacturing for rapid prototyping due to reduced material costs. Trusses are also relevant in different areas of mechanical engineering, art, and architecture, and their visualization and mechanical simulation are facilitated by computerized mesh representations.</p>
+
+      <p> I was personally motivated by the prospect of visualizing and 3D printing wireframe-based trusses with intricate geometries whose design is only feasible with a pre-programmed algorithm. Therefore, I created a process to add volume to 3-D wireframes that can cope with any wireframe geometry, including geometries with intersecting wires. The process I devised can produce a polyhedral structure even if the diameter of the beams exceeds a size that enables the resolution of individual beams. </p>
+
+      <!--<p>This process produces an STL file of a 3D object made of superimposed polyhedra that correspond to each beam in the truss. This file can be easily visualized and 3D printed, but is not a 2-manifold, which means that it cannot be used in mechanical simulations. To create a 2-manifold polyhedron, this process also produces individual STL files for each beam in the truss. Individual files are created so that each beam can be imported into OpenSCAD to compute their boolean union, which results in a 2-manifold. To import large numbers of beams into OpenSCAD, this process also automatically writes a .SCAD file that can be executed with OpenSCAD.</p>-->
+
+      <p>The PDF paper below provides a more detailed explanation of my algorithm with descriptive images. There is also a link to the GitHub repository that contains the Octave functions and scripts that I created to program this algorithm. </p>
+
+    </section>
+
+    <ol>
+      <li><a href="manifold.pdf" target="_blank">A method to create 3D printable objects from digital wireframes, descriptive paper</a></li>
+      <li><a href="https://github.com/Luis-V/wireframe-to-solid" target="_blank">GitHub repository of my process for creating 3D printable polyhedra from digital wireframes</a></li>
+    </ol>
+
+    <section>
+      <p>You can also see an example of a truss I created with this process below. The embedded 3D viewer allows zooming rotation.</p>
+    </section>
+
+<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/a081de80bef44fd789be02d576b2a96b/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/models/a081de80bef44fd789be02d576b2a96b?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Seashell 4</a>
+    by <a href="https://sketchfab.com/Luis-V?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Luis Villafana</a>
+    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
+</div>
+
+</body>
+</html>

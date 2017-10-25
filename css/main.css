@@ -1,0 +1,86 @@
+@charset "UTF-8"
+/* CSS Document */
+/* browser reset */
+*{
+	margin : 0;
+	padding : 0;
+	border : 0;
+	outline : 0;
+	font-size : 100%;
+	vertical-align : baseline;
+	font-family:'Palatino Linotype',serif;
+}
+h1{
+	width:100%;
+	vertical-align:middle;
+	background-clip: no-clip;
+	padding:5px;
+	font-size:50px;
+	color:rgba(0,0,0,.79);
+	text-align:center;
+}
+h2{
+	font-size:25px;
+	text-align:center;
+	padding:5px;
+	color:rgba(0,0,0,.71);
+}
+h3{
+	font-size:22.5px;
+	color:rgba(0,0,0,.71);
+}
+ol{
+	font-size:21px;
+	display:block;
+	text-align:left;
+	/*padding:5px;*/
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	list-style:none;
+	color:rgba(0,0,0,.88);
+	background-color: rgba(0,0,0,.08);
+}
+li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	padding: 2px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:rgba(0,0,0,.88);
+}
+p{
+	font-size: 20px;
+	color: rgb(0,0,0);
+	text-indent: 20px;
+	text-align: justify;
+}
+body{
+	padding-bottom: 50px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+.sketchfab-embed-wrapper{
+	position:relative;
+	left:50%;
+	transform: translate(-320px ,0px);	
+}
+.frontpage{
+	padding-bottom: .5px;
+	padding:5px;
+}
+.footerimage{
+	margin-right: 20px;
+	margin-top: 25px;
+}
+.listimage{
+	display: block;
+	margin: auto;
+	margin-bottom: 4px;
+	padding-top: 10px;
+
+}

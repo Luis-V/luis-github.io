@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Voronoi -Luis Villafana Tamez </title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+      <h1>Luis Villafana Tamez</h1>
+      <h2>Online Portfolio</h2>
+    </header>
+
+    <ol>
+      <li><a href="index.htm" target="_self">Home</a></li>
+    </ol>
+
+    <section>
+      <h2>Voronoi graph of points and line segments by Steiner point insertion</h2>
+
+      <p>One of my favorite natural patterns is the Voronoi pattern. The Voronoi pattern can be interpreted as a graph, whose edges delineate regions of space that contain Voronoi sites. The relationship between Voronoi sites and the geometry of their corresponding regions is described by beautiful mathematics. I am fascinated by the Voronoi pattern and its persistent appearance in natural objects, such as the circulatory system of plants and animals, the cosmic web, living and non-living materials at microscopic scales, seashells, spider webs, trees, nerve cells, etc.</p>
+
+      <!--<p>The Voronoi pattern has many real world applications. For example, the Voronoi graph of points and curves can be applied to robotic navigation, printed circuit board design, architecture, etc.</p>-->
+
+      <!--<p>Some of the algorithms for computing the Voronoi graph of points and line segments rely on careful implementations of mathematical formulas specific to the Voronoi graph of points and line segments. Other algorithms approximate the Voronoi graph with the implementation of quadtrees, which are a type of tree data structure.</p>-->
+
+      <p>My curiosity and love of art, nature, and mathematics motivated me to create a simple algorithm to compute the Voronoi graph of an arbitrary set of points and line segments. The algorithm I designed is an alternative to existing algorithms, and it only requires mathematical formulas for the Delaunay triangulation of points. This algorithm can also be extended to approximate the Voronoi graph of any differentiable curve</p>
+
+      <!--<p>This algorithm works by creating Steiner points along input line segments so that the quasi-triangulation of the set of input points and line segments can be extracted from the Delaunay triangulation of the input points and Steiner points. In this context, the term Steiner points refers to points that were created to refine an existing Delaunay triangulation. The coordinates of the Steiner points are determined from the property of Delaunay triangulations that forces nearest neighbor points to form edges in the Delaunay triangulation. Steiner points adjacent along the same segment are forced to be mutual nearest neighbors.</p>-->
+
+      <p>The PDF paper below provides a detailed explanation of my algorithm with descriptive images. There is also a link to the GitHub repository that contains the Octave functions and scripts that I created to program this algorithm.</p>
+
+    </section>
+
+    <ol>
+      <li><a href="voronoi.pdf" target="_blank">Voronoi graph of points and line segments by Steiner point insertion, descriptive paper</a></li>
+      <li><a href="https://github.com/Luis-V/voronoi-of-segments-and-points" target="_blank">GitHub repository of my algorithm for computing the Voronoi of points and line segments</a></li>
+    </ol>
+
+    <section>
+      <p>Below, you can also see an example of an arbitrary set of points and segments and their Voronoi graph created with this process.</p>
+      <img class="listimage" border="0" alt="voronoi" src="./images/voronoi.jpg" width="60%" height="60%">
+    </section>
+    
+</body>
+</html>
