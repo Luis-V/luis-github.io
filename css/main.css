@@ -30,6 +30,9 @@ h3{
 	color:rgba(0,0,0,.71);
 }
 ol{
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgba(0,0,0,.71);
 	font-size:21px;
 	display:block;
 	text-align:left;
@@ -40,7 +43,7 @@ ol{
 	padding-right: 8px;
 	list-style:none;
 	color:rgba(0,0,0,.88);
-	background-color: rgba(0,0,0,.08);
+	/*background-color: rgba(0,0,0,.08);*/
 }
 li{
 	margin-top: 5px;
@@ -50,8 +53,8 @@ li{
 }
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
-    color:rgba(0,0,0,.88);
+    /*text-decoration: none;
+    color:rgba(0,0,0,.88);*/
 }
 p{
 	font-size: 20px;
