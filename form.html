@@ -1,0 +1,39 @@
+<!doctype html>
+<!--this document is for creating a contact form-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact form</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>Luis Villafana</h1>
+			<h2>Online Portfolio</h2>
+		</header>
+		<nav><!--this nav is for defining a link to the homepage-->
+			<h4 ><a class ="homey" href="index.htm" target="_self">Home</a></h4>
+		</nav>
+		<h3>Contact form</h3>
+		<form>
+			<fieldset><!--this fieldset has fields for names and lastnames-->
+				<legend>Your personal information</legend>
+				<p><input type="text" name="name" id="name" required/></p>
+				<p><input type="text" name="email" id="email" required/></p>
+			</fieldset>
+			<fieldset><!--this fieldset has a field for leaving a message-->
+				<legend>Your message</legend>
+				<textarea name="yourcomments" id="yourcomments" placeholder="ET phone home"></textarea>
+			</fieldset>
+			<input type="submit" value="Submit"/>
+		</form>
+		<h4></h4>
+	</main>
+	<!--the place holders for the input fields are generated with a javascript document-->
+	<script type="text/javascript" src="script1.js"></script>
+</body>
+</html>
