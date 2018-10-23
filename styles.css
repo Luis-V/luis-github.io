@@ -1,0 +1,101 @@
+/* Step 1 - Add a nice background */
+body {
+	background-image: linear-gradient(30deg, rgba(66, 212, 244,1), rgba(158, 175, 255,1));
+	width: 423px;
+	align-content: center;
+	margin: auto;
+	height: 100%;
+}
+html,body{
+	min-height: 100%;
+}
+
+/* Step 2 - Add a nice card style */
+.card {
+	width: 46px;
+	height:46px;
+	margin: 7px;
+	font-size: 35px;
+	text-align: center;
+	color: rgb(178, 0, 0);
+	background-color: rgb(255, 224, 132);
+}
+
+/* Step 3 - Add a nice hover effect */
+.card:hover {
+	width: 46px;
+	height:46px;
+	margin: 7px;
+	font-size: 42px;
+	color: rgb(255, 224, 132);
+	background-color: rgb(178, 0, 0);
+}
+
+/* Step 4 (+4 points) - Write a style for a flipped card */
+.flipped {
+	background-color: rgb(255, 162, 81);
+}
+.flipped:hover{
+	width: 46px;
+	height:46px;
+	margin: 7px;
+	font-size: 35px;
+	text-align: center;
+	color: rgb(178, 0, 0);
+	background-color: rgb(255, 162, 81);
+}
+
+/* Step 5 - Add a nice style to the message element */
+#message {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	text-align: center;
+	font-size: 26px;
+	padding: 13px;
+}
+
+/* Step 6 - Add 5 more style changes... */
+/* 1) */
+#cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+/* 2) */
+#score{
+	margin: 6px;
+	text-align: center;
+	font-size: 26px;
+	text-decoration: underline;
+	padding-bottom: 15px;
+}
+#score,#message{
+	color: rgb(255, 248, 122);
+	font-weight: bold;
+}
+/* 3) */
+button{
+	margin: 6px;
+	font-size: 26px;
+	display: block;
+	margin: auto;
+	margin-top: 13px;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: white;
+}
+button:hover{
+	font-size: 23px;
+}
+/* 4) */
+#gameboard{
+	border-top:4px dotted black; 
+	padding: 13px;
+	border-color: rgba(0,0,0,.33);
+	border-width: 7px;
+}
+/* 5) */
+.container{
+	border:4px dotted black;
+	border-color: rgba(0,0,0,.33);
+	border-width: 7px;
+}
