@@ -91,7 +91,7 @@ function cardSelected(event){
       messageEle.innerHTML = `Congratulations! ${players[currentPlayer]}, please go again!`;
     } else {
       // Step 6e - Provide a fail message to the player
-      messageEle.innerHTML = "Oh, so sorry!!! But yer' not psychic!";
+      messageEle.innerHTML = "Whoops!";
 
       // Step 6f - Using a ternary, change players
       currentPlayer = (currentPlayer==0)? 1 : 0;

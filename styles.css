@@ -83,9 +83,10 @@ button{
 	padding: 0px;
 	background-color: white;
 }
+/*
 button:hover{
-	font-size: 23px;
-}
+	background-color: white;
+}*/
 /* 4) */
 #gameboard{
 	border-top:4px dotted black; 
