@@ -12,6 +12,21 @@
 	vertical-align : baseline;
 	font-family:'Palatino Linotype',serif;
 }
+
+h1{
+	font-size : 3.33em;
+}
+h3{
+	font-size : 2.33em;
+}
+p, h4{
+	font-size : 1.67em;
+}
+
+p{
+	text-indent : 2em;
+}
+
 /*an example of selection by combination*/
 .b1l1, h4 a{
 	display: flex;
